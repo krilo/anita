@@ -1,0 +1,1 @@
+var anitaApp = angular.module('anitaApp', []);

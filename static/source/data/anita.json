@@ -1,0 +1,98 @@
+{
+  "title": "Anitas Homepage",
+  "layers": [
+    {
+      "title": "backgrounds",
+      "resistance": 100,
+      "time": 0.4,
+      "items": [
+        {
+          "content": {
+            "type": "image",
+            "src": "http://payload303.cargocollective.com/1/16/540240/8370722/prt_800x533_1407604409.jpg"
+          },
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "height": 533,
+            "width": 800
+          }
+        },{
+          "content": {
+            "type": "image",
+            "src": "http://payload303.cargocollective.com/1/16/540240/8369718/prt_600x404_1407586214.jpg"
+          },
+          "position": {
+            "x": 110,
+            "y": 1110
+          },
+          "size": {
+            "height": 404,
+            "width": 600
+          }
+        },{
+          "content": {
+            "type": "image",
+            "src": "http://payload303.cargocollective.com/1/16/540240/8370722/rightsize5_1000.jpg"
+          },"position": {
+            "x": -110,
+            "y": 1110
+          },
+          "size": {
+            "height": 666,
+            "width": 1000
+          }
+        }
+      ]
+    },{
+      "title": "content",
+      "resistance": 100,
+      "time": 0.35,
+      "items": [
+        {
+          "content": {
+            "type": "image",
+            "src": "http://payload303.cargocollective.com/1/16/540240/8369777/prt_550x327_1407602019.gif"
+          },
+          "position": {
+            "x": 410,
+            "y": 510
+          },
+          "size": {
+            "height": 327,
+            "width": 550
+          }
+        }
+      ]
+    },{
+      "title": "fluff",
+      "resistance": 100,
+      "time": 0.3,
+      "items": [
+        {
+          "content": {
+            "type": "image",
+            "src": "http://payload303.cargocollective.com/1/16/540240/8366920/prt_405x387_1407517313.gif",
+            "project": 0
+          },
+          "position": {
+            "x": 210,
+            "y": 810
+          },
+          "size": {
+            "height": 387,
+            "width": 405
+          }
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 0,
+      "title": "Divine Love"
+    }
+  ]
+}

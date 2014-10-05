@@ -12,7 +12,7 @@ anitaApp.directive("anitaScroll", [function() {
 
         e.preventDefault();
         var delta = e.wheelDelta/120 || -e.detail/3;
-        progress = Math.min(Math.max(progress - delta/resistance, 0), 1)
+        progress = progress - delta/resistance //Math.min(Math.max(progress - delta/resistance, 0), 1)
       
         updatePos()
       })
@@ -26,6 +26,7 @@ anitaApp.directive("anitaScroll", [function() {
         TweenMax.to(container, time, {
           y: Math.round((container.offsetHeight - window.innerHeight)*-progress),
           x: Math.round(-container.offsetWidth/2),
+          z: 1,
           ease: Power1.easeOut,
           overwrite: 5
         })

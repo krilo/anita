@@ -3,7 +3,7 @@
   "layers": [
     {
       "title": "backgrounds",
-      "resistance": 100,
+      "resistance": 120,
       "time": 0.4,
       "items": [
         {
@@ -38,52 +38,52 @@
             "src": "http://payload303.cargocollective.com/1/16/540240/8370722/rightsize5_1000.jpg"
           },"position": {
             "x": -110,
-            "y": 1110
+            "y": 710
           },
           "size": {
-            "height": 666,
-            "width": 1000
+            "height": 682,
+            "width": 700
           }
         }
       ]
     },{
       "title": "content",
       "resistance": 100,
-      "time": 0.35,
+      "time": 0.4,
       "items": [
         {
           "content": {
             "type": "image",
-            "src": "http://payload303.cargocollective.com/1/16/540240/8369777/prt_550x327_1407602019.gif"
+            "src": "http://assets.wallpaper.com/wallpaper/live/images/1409137957__Glasgow-Revealed_S.jpg"
           },
           "position": {
             "x": 410,
             "y": 510
           },
           "size": {
-            "height": 327,
-            "width": 550
+            "height": 180,
+            "width": 180
           }
         }
       ]
     },{
       "title": "fluff",
-      "resistance": 100,
-      "time": 0.3,
+      "resistance": 80,
+      "time": 0.4,
       "items": [
         {
           "content": {
             "type": "image",
-            "src": "http://payload303.cargocollective.com/1/16/540240/8366920/prt_405x387_1407517313.gif",
+            "src": "https://i.embed.ly/1/display/crop?width=298&height=208&quality=95&url=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2F9PAWLeM00IhNEH-6-F7B2A%2Flarge_rectangle.jpg&key=a1f82558d8134f6cbebceb9e67d04980",
             "project": 0
           },
           "position": {
             "x": 210,
-            "y": 810
+            "y": 510
           },
           "size": {
-            "height": 387,
-            "width": 405
+            "height": 208,
+            "width": 298
           }
         }
       ]

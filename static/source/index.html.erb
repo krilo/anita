@@ -1,12 +1,7 @@
 <div id="app">
   
   <div ng-repeat="layer in layers" class="layer" style="height: {{container.height}}px ;" resistance="{{layer.resistance}}" time="{{layer.time}}" anita-scroll>
-    <div class="item" ng-repeat="item in layer.items" style="
-      top: {{item.position.y}}px;
-      left: {{item.position.x}}px;
-      width: {{item.size.width}}px;
-      height: {{item.size.height}}px;
-    ">
+    <div class="item" ng-repeat="item in layer.items" style="top: {{item.position.y}}px; left: {{item.position.x}}px;">
       <a href="#/projects/{{item.content.project}}">
         <img ng-src="{{item.content.src}}" ng-if="item.content.type == 'image'">
       </a>

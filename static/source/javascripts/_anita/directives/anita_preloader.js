@@ -1,7 +1,11 @@
-anitaApp.directive("anitaPreloader", ['$rootScope', function($rootScope) {
+anitaApp.directive("anitaPreloader", ['$rootScope', 'ImagePreloadFactory', function($rootScope, ImagePreloadFactory) {
   return {
     restrict: "A",
     link: function(scope, element, attr) {
+
+      scope.assets = []
+      scope.progress = 0
+      var preloader = ImagePreloadFactory.createInstance()
 
       /*
        * Wait for initial json load
@@ -9,9 +13,23 @@ anitaApp.directive("anitaPreloader", ['$rootScope', function($rootScope) {
 
       scope.$on('landing:data-loaded', function(event) {
         scope.jsonLoaded = true;
-        closePreloader();
+        Array.prototype.forEach.call(scope.layers, function(layer, i){
+          Array.prototype.forEach.call(layer.items, function(item, i){
+            preloader.addImage(item.content.src)
+          })
+        });
+
+        preloader.start(onComplete, onProgress);
+        
       });
 
+      var onComplete = function(event){
+        closePreloader()
+      }
+
+      var onProgress = function(p){
+        scope.progress = p
+      }
 
       var closePreloader = function(){
         TweenMax.to(element, 0.4, {opacity: 0, delay: 0.2, ease: Quad.easeIn, onComplete: function(){

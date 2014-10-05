@@ -3,8 +3,10 @@
   "layers": [
     {
       "title": "backgrounds",
-      "resistance": 120,
+      "resistance": 100,
       "time": 0.2,
+      "speed": 1.0,
+      "paddingBottom": 675,
       "items": [
         {
           "content": {
@@ -73,8 +75,10 @@
       ]
     },{
       "title": "middle",
-      "resistance": 80,
+      "resistance": 100,
       "time": 0.2,
+      "speed": 1.5,
+      "paddingBottom": 900,
       "items": [
         {
           "content": {
@@ -122,30 +126,32 @@
             "src": "images/rightsize2_1000.jpg"
           },
           "position": {
-            "x": 0,
+            "x": 80,
             "y": 3900
           }
         }
       ]
     },{
       "title": "top",
-      "resistance": 50,
+      "resistance": 100,
       "time": 0.2,
+      "speed": 2.1,
+      "paddingBottom": 1500,
       "items": [
         {
           "content": {
             "type": "image",
-            "src": "images/mag5_1000.jpg"
+            "src": "images/prt_405x387_1407517313.gif"
           },
           "position": {
-            "x": -400,
-            "y": -200
+            "x": -50,
+            "y": 20
           }
         },
         {
           "content": {
             "type": "image",
-            "src": "images/mag6_1000.jpg"
+            "src": "images/prt_500x282_1407606550.gif"
           },
           "position": {
             "x": 670,

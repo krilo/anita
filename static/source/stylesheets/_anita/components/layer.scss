@@ -1,8 +1,9 @@
 #app .layer {
-  width: 1000px;
+  width: 1200px;
   min-height: 100%;
   display: block;
   position: absolute;
   top: 0px;
   left: 50%;
+  @include transform(translate3d(-50%, 0, 0));
 }

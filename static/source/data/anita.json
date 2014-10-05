@@ -4,12 +4,12 @@
     {
       "title": "backgrounds",
       "resistance": 120,
-      "time": 0.4,
+      "time": 0.2,
       "items": [
         {
           "content": {
             "type": "image",
-            "src": "http://payload303.cargocollective.com/1/16/540240/8370722/prt_800x533_1407604409.jpg"
+            "src": "images/still01.jpg"
           },
           "position": {
             "x": 0,
@@ -18,52 +18,138 @@
         },{
           "content": {
             "type": "image",
-            "src": "http://payload303.cargocollective.com/1/16/540240/8369718/prt_600x404_1407586214.jpg"
+            "src": "images/still02.jpg"
           },
           "position": {
-            "x": 110,
-            "y": 1110
+            "x": -100,
+            "y": 605
           }
         },{
           "content": {
             "type": "image",
-            "src": "http://payload303.cargocollective.com/1/16/540240/8370722/rightsize5_1000.jpg"
-          },"position": {
-            "x": -110,
-            "y": 710
-          }
-        }
-      ]
-    },{
-      "title": "content",
-      "resistance": 100,
-      "time": 0.4,
-      "items": [
-        {
-          "content": {
-            "type": "image",
-            "src": "http://assets.wallpaper.com/wallpaper/live/images/1409137957__Glasgow-Revealed_S.jpg"
+            "src": "images/still03.jpg"
           },
           "position": {
-            "x": 410,
-            "y": 510
+            "x": 100,
+            "y": 1200
+          }
+        },{
+          "content": {
+            "type": "image",
+            "src": "images/still04.jpg"
+          },
+          "position": {
+            "x": 0,
+            "y": 1800
+          }
+        },{
+          "content": {
+            "type": "image",
+            "src": "images/still05.jpg"
+          },
+          "position": {
+            "x": -200,
+            "y": 2400
+          }
+        },{
+          "content": {
+            "type": "image",
+            "src": "images/still06.jpg"
+          },
+          "position": {
+            "x": 200,
+            "y": 2900
+          }
+        },{
+          "content": {
+            "type": "image",
+            "src": "images/still07.jpg"
+          },
+          "position": {
+            "x": -100,
+            "y": 3500
           }
         }
       ]
     },{
-      "title": "fluff",
+      "title": "middle",
       "resistance": 80,
-      "time": 0.4,
+      "time": 0.2,
       "items": [
         {
           "content": {
             "type": "image",
-            "src": "https://i.embed.ly/1/display/crop?width=298&height=208&quality=95&url=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2F9PAWLeM00IhNEH-6-F7B2A%2Flarge_rectangle.jpg&key=a1f82558d8134f6cbebceb9e67d04980",
-            "project": 0
+            "src": "images/shit01_1000.jpg"
           },
           "position": {
-            "x": 210,
-            "y": 510
+            "x": -100,
+            "y": 500
+          }
+        },
+        {
+          "content": {
+            "type": "image",
+            "src": "images/shit02_1000.jpg"
+          },
+          "position": {
+            "x": 270,
+            "y": 1200
+          }
+        },
+        {
+          "content": {
+            "type": "image",
+            "src": "images/rightsize4_1000.jpg"
+          },
+          "position": {
+            "x": 190,
+            "y": 2200
+          }
+        },
+        {
+          "content": {
+            "type": "image",
+            "src": "images/rightsize6_1000.jpg"
+          },
+          "position": {
+            "x": -100,
+            "y": 3000
+          }
+        },
+        {
+          "content": {
+            "type": "image",
+            "src": "images/rightsize2_1000.jpg"
+          },
+          "position": {
+            "x": 0,
+            "y": 3900
+          }
+        }
+      ]
+    },{
+      "title": "top",
+      "resistance": 50,
+      "time": 0.2,
+      "items": [
+        {
+          "content": {
+            "type": "image",
+            "src": "images/mag5_1000.jpg"
+          },
+          "position": {
+            "x": -400,
+            "y": -200
+          }
+        },
+        {
+          "content": {
+            "type": "image",
+            "src": "images/mag6_1000.jpg"
+          },
+          "position": {
+            "x": 670,
+            "y": 2200
           }
         }
       ]

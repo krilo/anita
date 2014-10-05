@@ -7,20 +7,8 @@ function ($scope, $http, $rootScope) {
   $http({method: 'GET', url: 'data/anita.json'}).
     success(function(data, status, headers, config) {
       $scope.layers = data.layers;
-      $scope.container.height = getParentHeight(data.layers[0].items) 
+      $scope.container.height = window.innerHeight * 2
       $rootScope.$broadcast('landing:data-loaded');
     })
-
-  var getParentHeight = function(elements){
-    var value = 0
-    for (var i = elements.length - 1; i >= 0; i--) {
-      var p = elements[i].position.y + elements[i].size.height
-      if(p > value){
-        value = p
-      }
-    };
-
-    return value;
-  }
 
 }]);

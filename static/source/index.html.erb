@@ -1,15 +1,1 @@
-<div id="app">
-  
-  <div ng-repeat="layer in layers" class="layer" style="height: {{container.height + layer.paddingBottom}}px; pointer-events: {{layer.pointerEvents}}" resistance="{{layer.resistance}}" time="{{layer.time}}" speed="{{layer.speed}}" anita-scroll>
-    <div class="item" ng-repeat="item in layer.items" style="top: {{item.position.y}}px; left: {{item.position.x}}px;">
-      <a href="#/projects/{{item.content.project}}">
-        <img ng-src="{{item.content.src}}" ng-if="item.content.type == 'image'">
-      </a>
-    </div>
-  </div>
-
-</div>
-
-<div id="preloader" anita-preloader>
-  <div class="line"></div>
-</div>
+<div ng-view></div>

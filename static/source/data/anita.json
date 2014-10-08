@@ -90,7 +90,8 @@
           "position": {
             "x": -100,
             "y": 500
-          }
+          },
+          "link": "#/projects/divine-love"
         },
         {
           "content": {
@@ -166,8 +167,40 @@
   ],
   "projects": [
     {
-      "id": 0,
-      "title": "Divine Love"
+      "id": "divine-love",
+      "title": "Divine Love",
+      "layers": [
+        {
+          "title": "top",
+          "resistance": 100,
+          "time": 0.2,
+          "speed": 2.1,
+          "paddingBottom": 0,
+          "pointerEvents": "none",
+          "items": [
+            {
+              "content": {
+                 "type": "image",
+                 "src": "images/prt_405x387_1407517313.gif"
+               },
+               "position": {
+                 "x": -50,
+                 "y": 20
+               }
+             },
+             {
+               "content": {
+                 "type": "image",
+                 "src": "images/prt_500x282_1407606550.gif"
+               },
+               "position": {
+                 "x": 670,
+                 "y": 2200
+               }
+             }
+          ]
+        }
+      ]
     }
   ]
 }

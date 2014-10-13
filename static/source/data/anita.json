@@ -11,8 +11,8 @@
       "items": [
         {
           "content": {
-            "type": "image",
-            "src": "images/still01.jpg"
+            "type": "video",
+            "src": "videos/aphex/01_flower"
           },
           "position": {
             "x": 0,
@@ -47,8 +47,8 @@
           }
         },{
           "content": {
-            "type": "image",
-            "src": "images/still05.jpg"
+            "type": "video",
+            "src": "videos/aphex/test"
           },
           "position": {
             "x": -200,

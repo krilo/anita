@@ -12,6 +12,7 @@ anitaApp.factory('ImagePreloadFactory', ['$q', '$rootScope', function ($q, $root
     var ImagePreloader = function () {
         var self = this;
         var images = [];
+        var videos = [];
 
         /**
          * Add single image in the preload queue
@@ -32,6 +33,24 @@ anitaApp.factory('ImagePreloadFactory', ['$q', '$rootScope', function ($q, $root
         };
 
         /**
+         * Add single video in the preload queue
+         *
+         * @param {string} video
+         */
+        self.addVideo = function (video) {
+            videos.push(video);
+        };
+
+        /**
+         * Add video array collection to the preload queue
+         *
+         * @param {Array} video
+         */
+        self.addVideos = function (video) {
+            videos = videos.concat(video);
+        };
+
+        /**
          * Start preloading image queue
          *
          * @param completeCallback
@@ -40,7 +59,7 @@ anitaApp.factory('ImagePreloadFactory', ['$q', '$rootScope', function ($q, $root
          * @returns {$q.defer.promise}
          */
         self.start = function (completeCallback, progressCallback) {
-            return preload(images, completeCallback, progressCallback);
+            return preload(images, videos, completeCallback, progressCallback);
         }
 
         /**
@@ -52,7 +71,7 @@ anitaApp.factory('ImagePreloadFactory', ['$q', '$rootScope', function ($q, $root
          *
          * @returns {$q.defer.promise}
          */
-        function preload(images, completeCallback, progressCallback) {
+        function preload(images, videos, completeCallback, progressCallback) {
             var loader = new PxLoader(),
                 defer = $q.defer();
 
@@ -67,6 +86,10 @@ anitaApp.factory('ImagePreloadFactory', ['$q', '$rootScope', function ($q, $root
 
             for (var i = 0; i < images.length; i++) {
                 loader.addImage(images[i]);
+            }
+
+            for (var i = 0; i < videos.length; i++) {
+                loader.addVideo(videos[i]);
             }
 
             loader.start();

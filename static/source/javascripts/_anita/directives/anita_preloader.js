@@ -15,7 +15,12 @@ anitaApp.directive("anitaPreloader", ['$rootScope', 'ImagePreloadFactory', funct
         scope.jsonLoaded = true;
         Array.prototype.forEach.call(scope.layers, function(layer, i){
           Array.prototype.forEach.call(layer.items, function(item, i){
-            preloader.addImage(item.content.src)
+            if(item.content.type == "image"){
+              preloader.addImage(item.content.src)
+            } else if(item.content.type == "video"){
+              preloader.addVideo(item.content.src+".mp4")
+              preloader.addVideo(item.content.src+".webm")
+            }
           })
         });
 

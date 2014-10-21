@@ -1,4 +1,22 @@
-<div id="app">
+<div id="app" ng-if="edit" anita-editable>
+  
+  <div ng-repeat="layer in layers" class="layer" style="height: {{container.height + layer.paddingBottom}}px;" resistance="{{layer.resistance}}" time="{{layer.time}}" speed="{{layer.speed}}" anita-scroll>
+    <div class="item" ng-repeat="item in layer.items" style="top: {{item.position.y}}px; left: {{item.position.x}}px;" anita-draggable>
+      <a>
+        <img ng-src="{{item.content.src}}" ng-if="item.content.type == 'image'">
+        <video autoplay muted loop ng-if="item.content.type == 'video'">
+          <source ng-src="{{item.content.src+'.mp4'}}">
+          <source ng-src="{{item.content.src+'.webm'}}">
+        </video>
+      </a>
+    </div>
+  </div>
+
+  <a href="#" id="download-json" download="data.json">Download Json</a>
+
+</div>
+
+<div id="app" ng-if="!edit">
   
   <div ng-repeat="layer in layers" class="layer" style="height: {{container.height + layer.paddingBottom}}px; pointer-events: {{layer.pointerEvents}}" resistance="{{layer.resistance}}" time="{{layer.time}}" speed="{{layer.speed}}" anita-scroll>
     <div class="item" ng-repeat="item in layer.items" style="top: {{item.position.y}}px; left: {{item.position.x}}px;">
@@ -11,6 +29,8 @@
       </a>
     </div>
   </div>
+
+  <a href="#" id="download-json" download="data.json">Download Json</a>
 
 </div>
 

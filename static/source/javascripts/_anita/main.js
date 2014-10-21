@@ -3,7 +3,7 @@ var anitaApp = angular.module('anitaApp', ['ngRoute']);
 anitaApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
-      when('/', {
+      when('/:mode?', {
         templateUrl: 'templates/landing.html',
         controller: 'MainController'
       }).

@@ -6,3 +6,5 @@
 //= require "_anita/controllers/project_controller.js"
 //= require "_anita/directives/anita_preloader.js"
 //= require "_anita/directives/anita_scroll.js"
+//= require "_anita/directives/anita_editable.js"
+//= require "_anita/directives/anita_draggable.js"

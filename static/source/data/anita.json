@@ -12,7 +12,7 @@
         {
           "content": {
             "type": "video",
-            "src": "videos/aphex/01_flower"
+            "src": "assets/aphex/videos/test"
           },
           "position": {
             "x": 0,
@@ -21,56 +21,137 @@
         },{
           "content": {
             "type": "image",
-            "src": "images/still02.jpg"
+            "src": "assets/aphex/stills/still02.jpg"
           },
           "position": {
-            "x": -100,
-            "y": 605
+            "x": -150,
+            "y": 600
           }
         },{
           "content": {
             "type": "image",
-            "src": "images/still03.jpg"
+            "src": "assets/aphex/stills/still012.jpg"
           },
           "position": {
-            "x": 100,
-            "y": 1200
+            "x": 438,
+            "y": 1056
           }
         },{
           "content": {
             "type": "image",
-            "src": "images/still04.jpg"
+            "src": "assets/blackmaterial/blackmaterial_002.jpg"
           },
           "position": {
             "x": 0,
-            "y": 1800
+            "y": 1456
+          }
+        },{
+          "content": {
+            "type": "image",
+            "src": "assets/blackmaterial/blackmaterial_002.jpg"
+          },
+          "position": {
+            "x": 0,
+            "y": 1456
+          }
+        },{
+          "content": {
+            "type": "image",
+            "src": "assets/blackmaterial/blackmaterial_003.jpg"
+          },
+          "position": {
+            "x": -280,
+            "y": 2156
           }
         },{
           "content": {
             "type": "video",
-            "src": "videos/aphex/test"
+            "src": "assets/budgielove/videos/loop01"
           },
           "position": {
-            "x": -200,
-            "y": 2400
+            "x": 0,
+            "y": 2700
           }
         },{
           "content": {
             "type": "image",
-            "src": "images/still06.jpg"
+            "src": "assets/budgielove/stills/birdy.jpg"
+          },
+          "position": {
+            "x": -654,
+            "y": 3184
+          }
+        },{
+          "content": {
+            "type": "image",
+            "src": "assets/budgielove/stills/hall-acid.jpg"
+          },
+          "position": {
+            "x": 254,
+            "y": 3700
+          }
+        },{
+          "content": {
+            "type": "image",
+            "src": "assets/googlechrome/cirque03.jpg"
+          },
+          "position": {
+            "x": 0,
+            "y": 4200
+          }
+        },{
+          "content": {
+            "type": "image",
+            "src": "assets/herradura/bgassets/140409_MC_H_25_291.jpg"
+          },
+          "position": {
+            "x": -400,
+            "y": 4900
+          }
+        },{
+          "content": {
+            "type": "image",
+            "src": "assets/herradura/bgassets/140407_MC_N_11_578.jpg"
           },
           "position": {
             "x": 200,
-            "y": 2900
+            "y": 5900
           }
         },{
           "content": {
             "type": "image",
-            "src": "images/still07.jpg"
+            "src": "assets/jambox/jam06.jpg"
+          },
+          "position": {
+            "x": -300,
+            "y": 6700
+          }
+        },{
+          "content": {
+            "type": "image",
+            "src": "assets/jambox/jam04.jpg"
           },
           "position": {
             "x": -100,
-            "y": 3500
+            "y": 7400
+          }
+        },{
+          "content": {
+            "type": "image",
+            "src": "assets/LV/new03.jpg"
+          },
+          "position": {
+            "x": 100,
+            "y": 7900
+          }
+        },{
+          "content": {
+            "type": "image",
+            "src": "assets/LV/new01.jpg"
+          },
+          "position": {
+            "x": -200,
+            "y": 8300
           }
         }
       ]
@@ -85,52 +166,20 @@
         {
           "content": {
             "type": "image",
-            "src": "images/shit01_1000.jpg"
+            "src": "assets/aphex/stills/still01b.jpg"
           },
           "position": {
-            "x": -100,
-            "y": 500
-          },
-          "link": "#/projects/divine-love"
-        },
-        {
-          "content": {
-            "type": "image",
-            "src": "images/shit02_1000.jpg"
-          },
-          "position": {
-            "x": 270,
-            "y": 1200
+            "x": -150,
+            "y": 200
           }
-        },
-        {
+        },{
           "content": {
             "type": "image",
-            "src": "images/rightsize4_1000.jpg"
+            "src": "assets/aphex/stills/still10.jpg"
           },
           "position": {
-            "x": 190,
-            "y": 2200
-          }
-        },
-        {
-          "content": {
-            "type": "image",
-            "src": "images/rightsize6_1000.jpg"
-          },
-          "position": {
-            "x": -100,
-            "y": 3000
-          }
-        },
-        {
-          "content": {
-            "type": "image",
-            "src": "images/rightsize2_1000.jpg"
-          },
-          "position": {
-            "x": 80,
-            "y": 3900
+            "x": 50,
+            "y": 900
           }
         }
       ]
@@ -145,21 +194,11 @@
         {
           "content": {
             "type": "image",
-            "src": "images/prt_405x387_1407517313.gif"
+            "src": "assets/aphex/stills/still02.jpg"
           },
           "position": {
-            "x": -50,
-            "y": 20
-          }
-        },
-        {
-          "content": {
-            "type": "image",
-            "src": "images/prt_500x282_1407606550.gif"
-          },
-          "position": {
-            "x": 670,
-            "y": 2200
+            "x": -150,
+            "y": 600
           }
         }
       ]
